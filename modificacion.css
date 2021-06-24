@@ -1,5 +1,9 @@
-.bg-dark{  
+    .bg-dark{  
      opacity: 0.9;
+    }
+
+    .collapse{
+      font-family: sans-serif;
     }
 
     #banner{
@@ -13,11 +17,12 @@
     }
 
     .row .col-lg-6 h2{
-      font-size: 55px;
+      font-size: 50px;
       font-weight: 700;
       margin-bottom: 0.4em;
       color: #F1C40F;
       text-align: left;
+      font-family: sans-serif;
     }
 
     .row .col-lg-6 p{
@@ -25,6 +30,7 @@
       line-height: 30px;
       color: white;
       text-align: justify;
+      font-family: sans-serif;
     }
 
     .wave{
@@ -52,6 +58,7 @@
       text-decoration: none;
       overflow: hidden;
       transition: 0.5s;
+      font-family: sans-serif;
     }
 
     .btn-neon:hover{
@@ -119,4 +126,72 @@
       transition-delay: 0.75s;
     }
 
+    .album .card{
+      border-radius: 8px;
+      overflow: hidden; 
+      transition: all 0.25s;
+      height: 520px;
+    }
+
+    .album .card:hover{
+      transform: translateY(-15px);
+      box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    }
+    .album .card h4{
+      font-weight: G00;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .container .card p{
+       padding: 0 1 rem;
+       font-size: 16px;
+       text-align: justify;
+       margin: 10px;
+    }
+
+    .btn{
+      margin-top: 10px;
+      left: 10px;
+    }
+
+    .ban-img-top{
+      width: 500px;
+      height: 400px;
+    }
+
+    .navbar-brand{
+      font-family: sans-serif;
+    }
+
+    .ventana{
+      background: url(imagenes/ases.png);
+      background-size: cover;
+      background-blend-mode: screen;
+      width: 70%;
+      color: white;
+      font-family: sans-serif;
+      font-size: 22px;
+      text-align: center;
+      padding: 33px;
+      min-height: 550px;
+      border-radius: 10px;
+      position: relative;
+      left: 15%;
+      display: none;
+      top: 10px;
+      margin-top: -500px;
+    }
+
+    .text-muted{
+      margin-top: 50px;
+    }
+
+    #cerrar{
+      margin-top: 400px;
+    }
+
+   
+
+    
 
