@@ -17,7 +17,7 @@
     }
 
     .row .col-lg-6 h2{
-      font-size: 50px;
+      font-size: 35px;
       font-weight: 700;
       margin-bottom: 0.4em;
       color: #F1C40F;
@@ -62,7 +62,7 @@
     }
 
     .btn-neon:hover{
-      background: #33FFC9;
+      background: #BA68C8;
       transition-delay: 1s;
     }
 
@@ -164,32 +164,32 @@
       font-family: sans-serif;
     }
 
-    .ventana{
-      background: url(imagenes/ases.png);
-      background-size: cover;
-      background-blend-mode: screen;
-      width: 70%;
-      color: white;
-      font-family: sans-serif;
-      font-size: 22px;
-      text-align: center;
-      padding: 33px;
-      min-height: 50px;
-      border-radius: 10px;
-      position: relative;
-      left: 15%;
-      display: none;
-      top: 10px;
-      margin-top: -500px;
-    }
-
     .text-muted{
       margin-top: 50px;
     }
 
-    #cerrar{
-      margin-top: 400px;
+    .modal-body{
+      background: url(imagenes/su.jpg);
+      background-size: cover;
+      background-blend-mode: screen;
     }
+
+    .modal-body h2{
+      text-align: center;
+      color: white;
+    }
+
+    .modal-body p{
+      text-align: justify;
+      margin-top: 20px;
+      margin: 10px;
+      color: white;
+    }
+
+    
+
+
+   
 
 
    
