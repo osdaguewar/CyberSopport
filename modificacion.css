@@ -189,82 +189,89 @@
       max-width: 100%;
     }
 
-    .team-section{
-      overflow: hidden;
-      text-align: center;
-      background: #34495E;
-      padding: 60px;
-      opacity: 0.9;
-      border-radius: 2%;
-    }
-
-    .team-section img{
-      width: 190px;
-      height: 180px;
+    .inner-width{
       width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 20px;
+      overflow: hidden;
     }
 
-    .team-section h1{
-      text-transform: uppercase;
-      margin-bottom: 60px;
+    .section-title{
+      margin-top: 30px;
+      text-align: center;
       color: white;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .border{
-      display: block;
-      margin: auto;
       width: 160px;
-      height: 3px;
-      background: #3498db;
-      margin-bottom: 40px;
+      height: 2px;
+      background: #82ccdd;
+      margin: 20px auto;
     }
 
-    .ps{
-      margin-bottom: 40px;
+    .services-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
-    .ps a{
-      display: inline-block;
-      margin: 0 30px;
-      width: 160px;
-      height: 160px;
-      overflow: hidden;
-      border-radius: 50%;
-    }
-
-    .section{
-      width: 600px;
-      margin: auto;
-      font-size: 20px;
-      color: white;
-      text-align: justify;
-      height: 0;
-      overflow: hidden;
-    }
-
-    .section:target{
-      height: auto;
-    }
-
-    .name{
-      display: block;
-      margin-bottom: 30px;
+    .service-box{
+      max-width: 33.33%;
+      padding: 10px;
       text-align: center;
-      text-transform: uppercase;
-      font-size: 22px;
+      color: white;
     }
 
+    .service-icon{
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border: 3px solid #82ccdd;
+      color: #82ccdd;
+      transform: rotate(45deg);
+      margin-bottom: 30px;
+      margin-top: 16px;
+      transition: 0.3s linear;
+    }
 
+    .service-icon i{
+      line-height: 70px;
+      transform: rotate(-45deg);
+      font-size: 26px;
+    }
 
+    .service-box:hover .service-icon{
+      background: #82ccdd;
+      color: #ddd;
+    }
 
-    
+    .service-title{
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
 
+    .service-desc{
+      font-size: 14px;
+    }
 
-   
+    @media screen and (max-width: 960px) {
+      .service-box{
+        max-width: 45%;
+      }
+    }
 
+    @media screen and (max-width: 768px) {
+      .service-box{
+        max-width: 50%;
+      }
+    }
 
-   
-
-    
+    @media screen and (max-width: 480px) {
+      .service-box{
+        max-width: 100%;
+      }
+    }
 
