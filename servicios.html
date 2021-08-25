@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="node_modules/animate.css/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
   <link rel="stylesheet" type="text/css" href="modificacion.css">
-  <link rel="shortcut icon" href="imagenes/ser.png">
+  <link rel="shortcut icon" href="imagenes/logo.png">
   <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
@@ -32,7 +32,7 @@
 <header class="header">
   <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="imagenes/ser.png" class="img-fluid" width="40px" height="40px">CyberSupport
+    <a class="navbar-brand" href="#"><img src="imagenes/pie.svg" class="img-fluid" width="60px" height="60px">CyberSupport
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -43,25 +43,15 @@
           <a class="nav-link active" aria-current="page" href="web.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="servicios.html">Servicios</a>
+          <a class="nav-link active" href="servicios.html">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="inversiones.html">Inversiones</a>
+          <a class="nav-link active" href="inversiones.html">Cyberfundación</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Colaboradores</a>
+          <a class="nav-link active" href="#">Tienda</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Administración
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Cartera</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Movimientos</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Registros</a></li>
-          </ul>
+
       </ul>
           <div class="text-center py-0 align-items-center">
       <a href="#" class="btn btn-primary m-1" role="button"
@@ -116,7 +106,7 @@
         <div class="service-icon">
           <i class="fas fa-code"></i>
         </div>
-        <div class="service-title">Desarrollo web</div>
+        <div class="service-title">Diseño & Desarrollo web</div>
         <div class="service-desc">
           ¿Necesitas que te conozcan? que mejor que una pagina web donde puedas ofrecer tus servicios y productos, contactanos y te daremos la mejor propuesta para tu sitio web.
         </div>
@@ -148,6 +138,92 @@
     </div>
   </section>
 
+  <main>
+    <h1 class="titulo">Preguntas frecuentes</h1>
+    <div class="categorias" id="categorias">
+      <div class="categoria" data-categoria="metodos-pago">
+        <img src="imagenes/pagos.svg">
+        <p>Métodos de pago</p>
+      </div>
+      <div class="categoria" data-categoria="entregas">
+        <img src="imagenes/entregas.svg">
+        <p>Entregas</p>
+      </div>
+      <div class="categoria" data-categoria="horario">
+        <img src="imagenes/horario.svg">
+        <p>Horarios de atención</p>
+      </div>
+      
+    </div>
+
+    <div class="preguntas">
+      <div class="contenedor-preguntas activo" data-categoria="metodos-pago">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿Que métodos de pago tienen?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿Plazos de los pagos?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+      <div class="contenedor-preguntas" data-categoria="entregas">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿Tienen entregas a domicilio?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿En que localidad trabajan las entregas?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+      <div class="contenedor-preguntas" data-categoria="horario">
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿En que horario atienden?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="contenedor-pregunta">
+          <p class="pregunta">¿Como saber cuando sera entregado mi producto?<img src="imagenes/suma.png" alt="abrir respuesta"></p>
+          <p class="respuesta">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
 <footer class="text-muted py-0">
   <main>
   <div class="bg-dark text-light px-4 py-5 text-center">
@@ -168,6 +244,7 @@
   </div>
 </main>
 </footer>
-
+  <script src="js/categorias.js"></script>
+  <script src="js/preguntasFrecuentes.js"></script>
 </body>
 </html>
