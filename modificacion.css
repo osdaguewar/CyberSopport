@@ -566,9 +566,48 @@
       }
     }
 
+    .whatsapp{
+      position: fixed;
+      right: 10px;
+      bottom: 5px;
+      z-index: 1;
+      width: 70px;
+      margin-bottom: 10px;
+    }
+    .underline{
+      width: 20%;
+      height: 5px;
+      background: #767676;
+      border-radius: 3px;
+      position: relative;
+      top: 5px;
+      align-content: center;
+      margin: 0 auto;
+    }
 
+    .underline span{
+      width: 15px;
+      height: 100%;
+      background: #fff;
+      border-radius: 3px;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      animation: moving 3s linear infinite;
+    }
 
-    
+    @keyframes moving{
+      0%{
+        left: -20px;
+      }
+      100%{
+        left: 100%;
+      }
+    }
+
+    .fs-5{
+      margin-top: 20px;
+    }
     
 
 
