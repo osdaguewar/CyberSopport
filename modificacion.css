@@ -624,7 +624,7 @@
       left: 8px;
       z-index: 1;
       cursor: pointer;
-      border: 2px solid blue;
+      border: 2px solid blueviolet;
       transition: all 300ms ease;
       transform: scale(0);
     }
