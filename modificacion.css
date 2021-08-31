@@ -211,6 +211,7 @@
       text-align: center;
       color: white;
       font-size: 40px;
+      font-family: baskerville;
     }
 
     .border{
@@ -264,13 +265,15 @@
     }
 
     .service-title{
+      font-family: candara;
       font-size: 18px;
       text-transform: uppercase;
       margin-bottom: 10px;
     }
 
     .service-desc{
-      font-size: 14px;
+      font-size: 16px;
+      font-family: arial;
     }
 
     @media screen and (max-width: 960px) {
@@ -483,6 +486,10 @@
     .categoria img{
       width: 64px;
       margin-bottom: 10px;
+    }
+
+    .categoria p{
+      color: white;
     }
 
     .titulo{
